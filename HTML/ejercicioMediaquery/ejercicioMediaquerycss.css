@@ -1,0 +1,53 @@
+/* Tamaño pequeño */ 
+@media (max-width: 600px){
+    body{
+        background-image: url('/imagen-pequena300x300.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0%;
+    }
+    h1{
+        text-align:center;
+        font-size: 45px;
+        color: blue;
+    }
+    footer{
+        margin-top: 205px;
+        text-align: center;
+        font-size: 5px;
+    }
+}
+/* Tamaño mediano */ 
+@media (min-width: 601px) and (max-width: 900px){
+    body{
+        background-image: url('/imagen-mediana600x600.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0%;
+    }
+    h1{
+        text-align:center;
+        font-size: 100px;
+        color: blueviolet;
+    }
+    footer{
+        margin-top: 390px;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+/* Tamaño grande */ 
+@media (min-width: 901px){
+    body{
+        background-image: url('/imagen-grande.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0%;
+    }
+    h1{
+        text-align: center;
+        font-size: 200px;
+        color: red;
+    }
+    footer{
+        margin-top: 800px;
+        text-align: center;
+    }
+}
